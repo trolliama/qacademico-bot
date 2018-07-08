@@ -55,7 +55,7 @@ class MyBot():
         """ Função para preencher os formulários """
 
         tags_span = self.browser.find_elements_by_class_name('textoResposta')
-        initial_value = 435 # valor inicia do atributo value da tag input,
+        initial_value = 435 # valor inicial do atributo value da tag input,
                             # é aumentado 10 a cada tag span
 
         for span in tags_span:
@@ -66,7 +66,7 @@ class MyBot():
             
             value += 11 # aumentar valor do value para próxima span.
 
-        self.browser.find_element_by_id('Enviar').click()
+        self.browser.find_element_by_id('Enviar').click() # Finalmente enviar os dados preenchidos
         
 
 if __name__ == '__main__':
