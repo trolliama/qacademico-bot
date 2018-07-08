@@ -17,8 +17,8 @@ class MyBot():
         self.browser.get("https://academicoweb.ifg.edu.br/qacademico/index.asp?t=1001")
 
         self.login_values = {
-                'login': '20181050080255',
-                'pass': 'Maceioifg2018'
+                'login': 'MATRÍCULA',
+                'pass': 'SENHA'
             }
 
     def entryLogin(self):
