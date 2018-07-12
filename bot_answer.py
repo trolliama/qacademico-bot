@@ -59,12 +59,12 @@ class MyBot():
                             # é aumentado 10 a cada tag span
 
         for span in tags_span:
-            random_num = randint(value, value + 10) # value + 10 é o valor da ultima tag input da tag span selecionada
+            random_num = randint(initial_value, initial_value + 10) # value + 10 é o valor da ultima tag input da tag span selecionada
 
             op_input = span.find_element_by_xpath("//input[@value='%i']"%random_num)
             op_input.click()
             
-            value += 11 # aumentar valor do value para próxima span.
+            initial_value += 11 # aumentar valor do value para próxima span.
 
         self.browser.find_element_by_id('Enviar').click() # Finalmente enviar os dados preenchidos
         
