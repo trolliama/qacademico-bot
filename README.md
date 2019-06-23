@@ -3,7 +3,7 @@ Esse é um script para preencher um formulário obrigatório do q-acadêmico. <b
 
 É usada a biblioteca Selenium para Python-3.X.X.  Para instalar as dependências use: <br><br>
 ```
-pip3 install -r requires.txt </b>
+pip3 install -r requirements.txt 
 ```  
 Para instalar o driver <b>Geckodriver</b> abra o terminal e digite:
 
