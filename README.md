@@ -1,4 +1,4 @@
-# bot-selenium
+# QAcadêmico Bot
 Esse é um script para preencher um formulário obrigatório do q-acadêmico. <br>
 
 É usada a biblioteca Selenium para Python-3.X.X.  Para instalar as dependências use: <br><br>
